@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+ font-family: 'ProximaNova-Semibold';
+ src: url('fonts/ProximaNova-Semibold.eot');
+ src: url('fonts/ProximaNova-Semibold.otf');
+ src: url('fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),  url('fonts/ProximaNova-Semibold.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'ProximaNova-Bold';
+ src: url('fonts/ProximaNova-Bold.eot');
+ src: url('fonts/ProximaNova-Bold.otf');
+ src: url('fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/ProximaNova-Bold.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'ProximaNova-Light';
+ src: url('fonts/ProximaNova-Light.eot');
+ src: url('fonts/ProximaNova-Light.otf');
+ src: url('fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),  url('fonts/ProximaNova-Light.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'ProximaNova-Regular';
+ src: url('fonts/ProximaNova-Regular.eot');
+ src: url('fonts/ProximaNova-Regular.otf');
+ src: url('fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),  url('fonts/ProximaNova-Regular.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+body {
+	margin:0;
+	color:#252525;
+	font-family: 'ProximaNova-Regular';
+}
+html, 
+body {
+    height: 100%;
+	background:#f5f5f5;
+	font-family: 'ProximaNova-Regular';
+}
+.top-band {
+	background:#1a3e61;
+}
+.logo {
+	margin:25px 0;
+}
+.whitepaper-img{
+	margin:auto;
+}
+.wrapper {
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	background:#fff;
+}
+.banner{ background:#fff;}
+.blue-band {
+	background:#fff;
+}
+.blue-band-inner {
+	padding:18px 0;
+	font-family:arial;
+	font-size:16px;
+	color:#252525;
+	line-height:30px;
+	text-align:left;
+}
+.form-area {
+	position:inherit;
+}
+.form-bg {
+	margin:auto;
+	position:fixed;
+	top:0;
+	bottom:0;
+	padding-top:120px;
+	width:360px;
+	z-index:99;
+	background:#dcdada;
+	border-left:10px solid #ccc;
+	border-right:10px solid #ccc;
+}
+.form-head {
+	font-size:20px;
+	background:#2abdad;
+	line-height:25px;
+	color:#fff;
+	text-align:center;
+	width:100%;
+	padding:10px 0;
+}
+.button {
+	padding: 0 60px;
+	border-radius:10px;
+	margin-top:20px;
+	text-align:center;
+	background:#1b3f62;
+	color:#fff;
+	font-size:18px;
+	display:inline-block;
+	text-decoration:none;
+	height:45px;
+	line-height:45px;
+	border:0;
+	cursor:pointer;
+}
+input:focus {
+	border:0;
+}
+.footer {
+	font-size:13px;
+	padding:10px 0;
+	background:#E6E6E6;
+	color:#666;
+	margin-top:50px;
+}
+.title-section {
+	display:table;
+	width:100%;
+	margin:30px -15px;
+}
+.title-text {
+	display:table-cell;
+	float:none;
+	vertical-align:middle;
+}
+.title-img {
+	display:table-cell;
+	text-align:right;
+	float:none;
+}
+.title-first-line {
+	color:#1b4165;
+	font-size:30px;
+	margin-bottom:20px;
+	line-height:35px;
+	margin-top:0px;
+	padding:0;
+	font-weight:normal;
+	font-family: 'ProximaNova-Regular';
+}
+/*.title-second-line {
+	color:#1b4165;
+	font-size:24px;
+	margin-bottom:25px;
+	line-height:24px;
+}*/
+.title-third-line {
+	color:#2abdad;
+	font-size:22px;
+	line-height:28px;
+}
+.cont-text {
+	font-size:14px;
+	line-height:22px;
+	text-align:justify;
+}
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+.form-bg {
+ width:290px;
+}
+.form-head{
+font-size:18px;
+}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+.container {
+ width: auto;
+}
+.form-bg{ position:relative; padding-top:0px; margin-bottom:40px; border:0;}
+.cont-txt {
+ margin:20px;
+ text-align:justify;
+}
+.content-area {
+ padding:20px 0;
+}
+.bottom-band {
+ margin-top:20px;
+}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+.logo{ margin:20px auto;}
+.form-bg {
+position:relative;
+width:100%;
+padding:0;
+border:0;
+margin-bottom:40px;
+}
+.title-section{ margin:30px 0;}
+.title-text{ display:block; text-align:center; float:inherit;}
+.title-img {
+    display: block;
+    float: inherit;
+	text-align:center;
+	margin:15px 0 0;
+}
+.cont-txt {
+ margin:20px;
+ text-align:justify;
+}
+.mobile-logo{ text-align:center;}
+
+}
+@media only screen and (min-device-width: 485px) and (max-device-width: 640px) and (orientation: landscape) {
+.form-bg {
+position:relative;
+padding:0;
+border:0;
+margin-bottom:40px;
+}
+
+}
